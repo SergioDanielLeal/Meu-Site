@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(120, 214, 252);
+}
+
 h1 {
     text-align: center;
     font-family: caveat, comic-sans, cursive; 
@@ -15,12 +19,27 @@ p {
     font-family: verdana, sans-serif;
 }
 
-#plink {
-    font-family: Courier, monospace; 
+a {
     color: blue; 
-    background-color: white;
+    background-color: rgb(120, 214, 252);
+    font-size: 32px;
+}
+
+a:hover {
+    color: white;
 }
 
 div {
     text-align: center;
+}
+
+.div1 {
+    width: 300px;
+    border: 5px solid black;
+    color: white;
+    background-color: rgb(10, 1, 141);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000ec;
+    padding: 10px;
+    margin: 10px;
 }
