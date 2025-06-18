@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(120, 214, 252);
+    background-image: url("/imagens/logoSerra.png"), url("/imagens/morocco-blue.png");
+    background-repeat: no-repeat, repeat;
+    background-position: right top, center;
+    background-size: 50px, auto;
+    background-attachment: fixed, scroll;
 }
 
 h1 {
