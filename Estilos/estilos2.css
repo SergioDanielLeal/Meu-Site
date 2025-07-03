@@ -1,53 +1,74 @@
-div {
-    border: 2px solid gray;
-    padding: 5px;
-    width: 410px;
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
+    text-align: center;
+    background-color: rgb(36, 94, 180);
+    border: 3px solid rgb(10, 1, 141); 
+    margin: 5px;
+    padding: 15px;
+    width: 30em;
+    border-radius: 10px;
 
 }
 
-.div1 {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border: 1px solid blue;
-    background-image: url("/imagens/avatar.png");
-    background-size: 200px;
+.nome {
+    margin: 20px;
+    padding: 10px;
 }
 
-.div2 {
-    display: block;
-    width: 200px;
-    height: 100px;
-    font-size: 17px;
-    border: 1px solid red;
+.sbox {
+    background-color: rgb(72, 108, 214);
+    margin: 8px 0em;
+    padding: 1px 0em;
 }
 
-.div3 {
-    display: block;
-    width: 400px;
-    height: 100px;
-    border: 1px solid red;
+ol {
+    list-style-type: decimal;
+    margin: 30px;
 }
 
-.div4 {
-    display: block;
-    width: 400px;
-    height: 100px;
-    border: 1px solid red;
-    margin-top: 5px;
+ul {
+    list-style: none;
 }
 
-.div5 {
-    display: block;
-    width: 400px;
-    height: 100px;
-    border: 1px solid red;
-    margin-top: 5px;
+li {
+    margin: 1em 0em;
+    text-align: center;
 }
 
-.div6 {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center
+}
+
+footer {
+    background-color:rgb(36, 94, 180);
+    margin-top: 8px;
+    padding: 1em;
+    text-align: center;
+}
+
+body {
+    margin: 2px 15%;
+    padding: 0%;
+    background-color: rgb(141, 219, 255);;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+address {
+    margin-top: 1em;
 }
