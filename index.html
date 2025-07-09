@@ -2,46 +2,83 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sérgio Daniel Camponez Leal">
+
         <title>Atividade3_ProgWeb</title>
         <link rel="stylesheet" href="Estilos/estilos.css">
         <link rel="icon" href="imagens/logoSerra.png" type="image/png">
     </head>
     <body>
-        <h1>
-            Sérgio Daniel Camponez Leal </h1>
-        <div><img src="imagens/avatar.png" alt="Avatar do criador do site" height="250" width="250"></div>
+        <header>
+            <h1>Sérgio Daniel Camponez Leal</h1>
+            <nav>
+                <a href="#section1">Início</a>
+                <a href="#section2">Minha Instituição</a>
+                <a href="#section3">Contato</a>
+            </nav>
+            <img src="imagens/logoSerra.png" alt="Logo IFES">
+        </header>
 
-        <h2>
-            Sobre mim: </h2>
-        <div class="div1">
-            Meu nome é Sérgio Daniel, tenho 18 anos, sou branco, alto, cabelos e olhos castanhos escuros, uso óculos, por ter 1.5 de astigmatismo. 
-            E o mais importânte, sou flamenguista. </div>
+        <div class="layout">
+            <aside>
+                <nav class="nav-aside">
+                    <a href="Tutorial.html">Tutorial</a>
+                    <a href="https://serra.ifes.edu.br/" target="_blank">Ifes</a>
+                    <a href="curriculo.html">Curriculo</a>
+                </nav>
+            </aside>
+
+            <main>
+            <section id="section1">
+                <img src="imagens/avatar.png" alt="avatar do criador do site">
+                <div>
+                    <h2>Sobre mim:</h2>
+                    <p>
+                        Meu nome é Sérgio Daniel, tenho 18 anos, 
+                        sou branco, alto, cabelos e olhos castanhos escuros, 
+                        uso óculos, por ter 1.5 de astigmatismo. 
+                        E o mais importânte, sou flamenguista.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Meus Interesses:</h2>
+                    <p>
+                        Gosto de jogos, de filmes, de ouvir música, 
+                        gosto também de andar de skate, de programar e de praia. 
+                        No meu tempo livre fico mais no computador e assisto futebol.
+                    </p>
+                </div>
+            </section>
+
+            <br>
+
+            <section id="section2">
+                <h2>Minha Instituição</h2>
+                <a href="https://serra.ifes.edu.br/" target="_blank">
+                    <img src="imagens/serra.png" alt="Imagem da portaria do Ifes Campus Serra">
+                </a>
+            </section>
+            
+            <br>
+
+            <section id="section3">
+                <h2>Contatos:</h2>
+                <div>
+                    <p>Nome: Sérgio Daniel Camponez Leal</p>
+                    <p>Idade: 18 anos</p>
+                    <p>E-mail: sergiodanielcamponezleal@gmail.com</p>
+                    <p>Telefone: (27) 9 9271-0778</p>
+                </div>
+            </section>
+        </main>
+        </div>
         
-        <h2>
-            Meus Interesses: </h2>
-        <div class="div1">
-            Gosto de jogos, de filmes, de ouvir música, gosto também de andar de skate, de programar e de praia. 
-            No meu tempo livre fico mais no computador e assisto futebol. </div>
-        
-        <h2>
-            Minha Instituição: </h2>
-
-        <a href="https://serra.ifes.edu.br/" target="_blank">
-            <img src="imagens/serra.png" alt="Imagem da portaria do Ifes Campus Serra" height="300" weight="300">
-        </a>
-        
-        <h2>Link para o meu tutorial HTML:</h2>
-        <br>
-        <a href="Tutorial.html">
-            Meu Tutorial
-        </a>
-
-        <br>
-        <h2>Link para o meu currículo profissional:</h2>
-        <a href="curriculo.html">
-            Meu Currículo Profissional
-        </a>
-
+        <footer>
+            <p>&copy;2025 Sérgio Daniel Camponez Leal. Todos os direitos reservados - 
+                orientação: prof. Jonathan Toczek
+            </p>
+        </footer>
     </body>
 </html>
