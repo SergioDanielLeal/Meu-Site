@@ -107,7 +107,7 @@ main {
     height: 50%;
     width: 50%;
     border: 4px solid rgb(10, 1, 141);
-    background-image: url(/imagens/just-waves.webp);
+    background-image: url(../imagens/just-waves.webp);
     text-align: justify;
 }
 
@@ -148,7 +148,7 @@ main {
     height: 50%;
     width: 50%;
     border: 4px solid rgb(10, 1, 141);
-    background-image: url(/imagens/just-waves.webp);
+    background-image: url(../imagens/just-waves.webp);
     text-align: justify;
 }
 
